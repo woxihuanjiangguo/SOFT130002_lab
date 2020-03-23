@@ -1,0 +1,99 @@
+a:link,a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover,a:active{
+    text-decoration: none;
+    color: lightseagreen;
+}
+.userButton{
+    cursor: default;
+    pointer-events: none;
+    float: right;
+}
+
+aside{
+    position: absolute;
+    right:50px;
+    font-size:1.6em;
+    top:150px;
+}
+aside ul li{
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+
+nav{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    box-shadow: 3px 3px 3px gray;
+}
+
+nav ul li{
+    float: left;
+}
+.nav_pic{
+    margin-left: 15%;
+}
+.nav_last_word{
+    padding-left: 38%;
+}
+nav ul .nav_word{
+    margin-top: 15px;
+    height: 50px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: larger;
+    font-family: "Adobe 黑体 Std R", serif;
+    font-weight: bold;
+}
+nav ul .nav_word a{
+    display: inline;
+}
+main{
+    background-color: whitesmoke;
+    margin: 70px auto;
+    width: 70%;
+}
+
+main>h3{
+    font-weight: bold;
+    font-family: "Microsoft YaHei UI",serif;
+    font-size: 1.6em;
+    margin: 30px 30px;
+    padding-top: 30px;
+}
+article ul{
+    line-height: 24px;
+}
+article ul li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+article ul li:hover{
+    background-color: moccasin;
+}
+article ul li h4{
+    font-weight: bold;
+    margin: 30px 20px;
+}
+article ul li h4::before{
+    content: "▶ ";
+}
+article ul li p{
+    margin-left: 10px;
+}
+article ul li blockquote{
+    margin: 30px 20px;
+    text-decoration: underline;
+}
+footer{
+    margin: 10px 20px;
+}
+footer span{
+    color: darkcyan;
+    text-decoration: underline;
+}
