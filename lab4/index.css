@@ -1,0 +1,63 @@
+#navTop {
+    font-size: 1.8rem;
+}
+#navTop .navbar-header{
+    margin-right: 30px;
+    margin-top: 5px;
+}
+#navTop img{
+    border-radius: 10px;
+}
+ul.dropdown-menu{
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+#myCarousel{
+    margin-top: 120px;
+    width: 70%;
+}
+.thumbnail{
+    padding: 10px 0;
+    height: 240px;
+    outline: none;
+    border:none;
+    background: silver;
+}
+.row{
+    margin-top: 70px;
+}
+.row .thumbnail{
+    border-radius: 20px;
+}
+.row .thumbnail:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.row h3{
+    margin-top: 1px;
+    font-size: 2rem;
+}
+.row img{
+    border-radius: 10px;
+}
+footer{
+    background: #333333;
+    height: 200px;
+    margin-top: 50px;
+}
+footer .col-md-2{
+    margin-top: -40px;
+}
+footer .col-md-2 h1{
+    color: azure;
+    font-family: "Microsoft YaHei UI",sans-serif;
+    font-weight: bold;
+    cursor: default;
+    font-size: 3.1rem;
+}
+footer h1:hover{
+    text-decoration: underline;
+    color: aquamarine;
+}
+
