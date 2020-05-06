@@ -1,8 +1,8 @@
-# LAB6
+﻿# LAB6
 ## 个人信息
 李臻欣 19302010007  
 https://github.com/woxihuanjiangguo/SOFT130002_lab  
-![](pics/github.png)  
+![](pics/github1.png)  
 ![](pics/command.png)
 ## 代码具体实现
 ### 正则表达式

@@ -1,4 +1,4 @@
-/*
+﻿/*
 1.
 背景：
     每隔五秒运行一次函数直到某一整分钟停止，比如从20:55:45运行到20:56:00停止；
@@ -256,11 +256,11 @@ PoorCountry.prototype.saySad = function () {
 };
 //create方法继承
 function DevelopedCountry() {
-    Country.call(this);
 }
-DevelopedCountry.prototype = Object.create(Country.prototype);
-DevelopedCountry.prototype.sayHappy = function () {
-    return "I am a happy developed country.";
+DevelopedCountry.prototype = Object.create(new Country(),{
+});
+DevelopedCountry.prototype.sayHappy = function(){
+    return "I am a happy developed country."
 };
 
 let developingCountry = new DevelopingCountry();
